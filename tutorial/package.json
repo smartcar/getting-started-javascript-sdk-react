@@ -1,0 +1,21 @@
+{
+  "name": "getting-started-javascript-sdk-react",
+  "version": "1.0.0",
+  "dependencies": {
+    "@smartcar/auth": "^2.0.0",
+    "axios": "^0.18.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
