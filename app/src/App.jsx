@@ -20,6 +20,7 @@ class App extends Component {
     this.smartcar = new Smartcar({
       clientId: process.env.REACT_APP_CLIENT_ID,
       redirectUri: process.env.REACT_APP_REDIRECT_URI,
+      scope: ['read_vehicle_info'],
       testMode: true,
       onComplete: this.onComplete,
     });
@@ -27,7 +28,7 @@ class App extends Component {
 
   onComplete(err, code, status) {
     return axios
-      .get(`${process.env.REACT_APP_SERVER}/callback?code=${code}`)
+      .get(`${process.env.REACT_APP_SERVER}/exchange?code=${code}`)
       .then(_ => {
         return axios.get(`${process.env.REACT_APP_SERVER}/vehicle`);
       })
