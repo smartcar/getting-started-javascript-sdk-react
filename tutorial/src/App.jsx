@@ -17,26 +17,25 @@ class App extends Component {
 
     this.onComplete = this.onComplete.bind(this);
 
-    // TODO: initialize the Smartcar object
+    // TODO: Authorization Step 1: Initialize the Smartcar object
   }
 
   onComplete(err, code, status) {
-    /**
-     * TODO 1. receive the authorization code
-     * TODO 2. obtain an access token
-     * TODO 3. get vehicle information
-     */
+    // TODO: Authorization Step 3: Receive the authorization code
+
+    // TODO: Request Step 1: Obtain an access token
+
+    // TODO: Request Step 2a: Get vehicle information
   }
 
   authorize() {
-    // TODO: launch the authorization flow
+    // TODO: Authorization Step 2a: Launch the authorization flow
   }
 
   render() {
-    /**
-     * TODO 1.launch the authorization flow
-     * TODO 2. get vehicle information
-     */
+    // TODO: Authorization Step 2b: Launch the authorization flow
+
+    // TODO: Request Step 2b: Get vehicle information
   }
 }
 
