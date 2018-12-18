@@ -14,8 +14,8 @@ $ export REACT_APP_REDIRECT_URI=<your-redirect-uri>
 ```
 
 Before setting up the client code, make sure to set up the server code. You can use any of our following back-end SDKs -
-* [Node SDK](https://github.com/smartcar/getting-started-node-sdk/tree/add-starter-kit)
-* [Python SDK](https://github.com/smartcar/getting-started-python-sdk/tree/add-starter-kit)
+* [Node SDK](https://github.com/smartcar/getting-started-node-sdk)
+* [Python SDK](https://github.com/smartcar/getting-started-python-sdk)
 * [Java SDK](https://github.com/smartcar/getting-started-java-sdk)
 
 Follow the setup instructions in the back-end README except for the `redirect_uri`. Make sure the `redirect_uri` environment variable in the back-end directory is the same as the one we have set above.
