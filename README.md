@@ -28,7 +28,7 @@ $ export REACT_APP_SERVER=<your-server-uri>
 ```
 Make sure you have cloned this repo -
 ```bash
-$ git clone git@github.com:smartcar/getting-started-javascript-sdk-react.git
+$ git clone https://github.com/smartcar/getting-started-javascript-sdk-react.git
 $ cd getting-started-javascript-sdk-react/app
 ```
 To install the required dependencies and run this React app -
