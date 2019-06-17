@@ -29,11 +29,11 @@ class App extends Component {
   }
 
   authorize() {
-    // TODO: Authorization Step 2a: Launch the authorization flow
+    // TODO: Authorization Step 2a: Launch Connect
   }
 
   render() {
-    // TODO: Authorization Step 2b: Launch the authorization flow
+    // TODO: Authorization Step 2b: Render the Connect component
 
     // TODO: Request Step 2b: Get vehicle information
   }
