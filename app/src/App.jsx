@@ -20,7 +20,7 @@ class App extends Component {
     this.smartcar = new Smartcar({
       clientId: process.env.REACT_APP_CLIENT_ID,
       redirectUri: process.env.REACT_APP_REDIRECT_URI,
-      scope: ['read_vehicle_info'],
+      scope: ['required:read_vehicle_info'],
       testMode: true,
       onComplete: this.onComplete,
     });
