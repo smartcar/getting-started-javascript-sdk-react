@@ -2,11 +2,11 @@
   "name": "getting-started-javascript-sdk-react",
   "version": "1.0.0",
   "dependencies": {
-    "@smartcar/auth": "^2.0.0",
-    "axios": "^0.18.0",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "@smartcar/auth": "^2.4.0",
+    "axios": "^0.19.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts": "^3.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
