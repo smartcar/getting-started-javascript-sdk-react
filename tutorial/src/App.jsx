@@ -22,6 +22,8 @@ class App extends Component {
 
   onComplete(err, code, status) {
     // TODO: Authorization Step 3: Receive the authorization code
+    
+    console.log(err, code, status);
 
     // TODO: Request Step 1: Obtain an access token
 
