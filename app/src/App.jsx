@@ -20,13 +20,13 @@ class App extends Component {
     this.smartcar = new Smartcar({
       clientId: process.env.REACT_APP_CLIENT_ID,
       redirectUri: process.env.REACT_APP_REDIRECT_URI,
-      scope: ['required:read_vehicle_info'],
+      scope: ['read_vehicle_info'],
       testMode: true,
       onComplete: this.onComplete,
     });
   }
 
-  onComplete(err, code, status) {
+  onComplete(err, code, state) {
     return axios
       .get(`${process.env.REACT_APP_SERVER}/exchange?code=${code}`)
       .then(_ => {
