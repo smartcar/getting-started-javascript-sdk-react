@@ -20,10 +20,10 @@ class App extends Component {
     // TODO: Authorization Step 1: Initialize the Smartcar object
   }
 
-  onComplete(err, code, status) {
+  onComplete(err, code, state) {
     // TODO: Authorization Step 3: Receive the authorization code
     
-    console.log(err, code, status);
+    console.log(err, code, state);
 
     // TODO: Request Step 1: Obtain an access token
 
