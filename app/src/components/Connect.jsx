@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({onClick}) => (
+export default ({ onClick }) => (
   <div>
     <h1>Connect your vehicle</h1>
 

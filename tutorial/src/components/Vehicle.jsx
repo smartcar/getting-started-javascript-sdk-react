@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({info}) => (
+export default ({ info }) => (
   <table>
     <thead>
       <tr>
