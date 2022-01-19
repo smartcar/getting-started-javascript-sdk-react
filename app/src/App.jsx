@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import { Component } from 'react';
 import axios from 'axios';
 import Smartcar from '@smartcar/auth';
 
@@ -33,12 +33,12 @@ class App extends Component {
         return axios.get(`${process.env.REACT_APP_SERVER}/vehicle`);
       })
       .then(res => {
-        this.setState({vehicle: res.data});
+        this.setState({ vehicle: res.data });
       });
   }
 
   authorize() {
-    this.smartcar.openDialog({forcePrompt: true});
+    this.smartcar.openDialog({ forcePrompt: true });
   }
 
   render() {

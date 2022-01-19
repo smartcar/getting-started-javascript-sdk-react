@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import { Component } from 'react';
 import axios from 'axios';
 import Smartcar from '@smartcar/auth';
 
@@ -22,7 +22,7 @@ class App extends Component {
 
   onComplete(err, code, state) {
     // TODO: Authorization Step 3: Receive the authorization code
-    
+
     console.log(err, code, state);
 
     // TODO: Request Step 1: Obtain an access token
@@ -36,7 +36,6 @@ class App extends Component {
 
   render() {
     // TODO: Authorization Step 2b: Render the Connect component
-
     // TODO: Request Step 2b: Get vehicle information
   }
 }
