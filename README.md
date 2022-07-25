@@ -6,7 +6,7 @@ This kit contains a simple web application that displays car information using S
 
 Before we get started, create an application on Smartcar's Developer Dashboard to get your API keys.
 
-**Note:** On the dashboard, you will want to set your `redirect_uri` as `https://javascript-sdk.smartcar.com/redirect-2.0.0?app_origin=http://localhost:3000`.
+**Note:** On the dashboard, you will want to set your `redirect_uri` as `https://javascript-sdk.smartcar.com/v2/redirect?app_origin=http://localhost:3000`.
 
 Then, we can set these as environment variables -
 
