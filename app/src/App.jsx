@@ -21,7 +21,7 @@ class App extends Component {
       clientId: process.env.REACT_APP_CLIENT_ID,
       redirectUri: process.env.REACT_APP_REDIRECT_URI,
       scope: ['read_vehicle_info'],
-      mode: 'test',
+      mode: 'simulated',
       onComplete: this.onComplete,
     });
   }
