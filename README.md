@@ -45,4 +45,4 @@ $ npm install
 $ npm run start
 ```
 
-Once your server is up and running, you can authenticate your vehicle at `http://localhost:3000` in your browser. In our current set up, we are using Smartcar's [test mode](https://smartcar.com/docs/guides/testing/), so you can log in with any username and password and you will see information of a simulated vehicle.
+Once your server is up and running, you can authenticate your vehicle at `http://localhost:3000` in your browser. In our current set up, we are using Smartcar's [simulated mode](https://smartcar.com/docs/getting-started/test-your-integration), so you can log in with any username and password and you will see information for a simulated vehicle.
